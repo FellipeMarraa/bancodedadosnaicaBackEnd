@@ -10,7 +10,7 @@ const servicesModel = new Schema({
 
         naica: {
             type: String,
-            required: true
+            required: false
         },
 
         dataNascimento: {
@@ -38,7 +38,7 @@ const servicesModel = new Schema({
             required: true
         },
         desligado: {
-            type: Boolean
+            type: Date
         },
         escola: {
             type: String,
@@ -53,7 +53,7 @@ const servicesModel = new Schema({
             required: true
         },
         desacompanhado: {
-            type: Boolean
+            type: String
         },
         autorizadoBuscar: {
             type: String,
